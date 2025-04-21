@@ -1,0 +1,13 @@
+h1{
+    color:black;
+}
+body{
+    background-color: pink;
+}
+div{
+    background-color: aquamarine;
+    width: 500px;
+    height:500px;
+    margin: auto;
+}
+
