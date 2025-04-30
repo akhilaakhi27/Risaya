@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>CRUD Operations on Table</h2>
+
+<!-- Form Inputs -->
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="email" placeholder="Email">
+<input type="text" id="age" placeholder="Age">
+
+<button onclick="addOrUpdateRow()">Add</button>
+
+<!-- Table -->
+<table id="dataTable" border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Age</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Dynamic rows will appear here -->
+  </tbody>
+</table>
+
+<!-- Link to JavaScript -->
+<script src="crud.js"></script>
+
+</body>
+</html>
